@@ -1,4 +1,4 @@
-from distutils.core import setup, Command
+from distutils.core import setup
 
 setup(name='dryscrape',
       version='1.0.1',
