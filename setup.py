@@ -8,5 +8,6 @@ setup(name='dryscrape',
       license='MIT',
       url='https://github.com/niklasb/dryscrape',
       packages=['dryscrape', 'dryscrape.driver'],
-      install_requires=['webkit_server>=1.0', 'lxml', 'xvfbwrapper'],
+      install_requires=['webkit_server==1.0-tagtoo', 'lxml', 'xvfbwrapper'],
+      dependency_links=['git+git://github.com/Tagtoo/webkit-server.git#egg=webkit_server-1.0-tagtoo'],
       )
